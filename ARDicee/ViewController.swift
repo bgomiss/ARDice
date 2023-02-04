@@ -29,7 +29,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        // Create a session configurationn
+        // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
         
         configuration.planeDetection = .horizontal
